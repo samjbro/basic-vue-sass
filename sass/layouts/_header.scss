@@ -1,0 +1,50 @@
+.header {
+  padding: 18rem 10rem 0 10rem;
+
+  &__content {
+    position: relative;
+    width: 66%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 2px solid $color-secondary;
+    border-bottom: 2px solid $color-secondary;
+  }
+
+  &__logo-box {
+    padding: 8rem 0;
+    border-bottom: 2px solid $color-secondary;
+    position: relative;
+  }
+
+  &__logo {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__nav-box {
+    text-align: center;
+  }
+
+  &__nav-row {
+    padding: 1.5rem 2rem;
+  }
+
+  &__nav-item {
+    padding: 2px $gutter-horizontal 2px 0;
+
+    &:not(:last-child) {
+    border-right: .5px solid $color-secondary;
+    }
+  }
+
+  &__nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+  }
+}
